@@ -6,8 +6,8 @@ Java's Maps implementations though do not offer that functionality.
 Example
 ===========
 
-Dictionary<String, Integer> dict = new Dictionary<String, Integer>();
-dict.put("Word", 1);
+Dictionary \<String, Integer\> dict = new Dictionary\<String, Integer\>();</br>
+dict.put("Word", 1);</br>
 dict.put("Word", 3);
 
-The above code snippet (with generics which for some reason are not printed) will not replace Word's value with 3, but instead it's going to add the new value to the old one.
+The above code snippet will not replace Word's value with 3, but instead it's going to add the new value to the old one.
